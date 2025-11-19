@@ -1,18 +1,98 @@
-# React + Vite
+🛒 Proyecto Final — Tienda Online (Digitalers)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi proyecto final desarrollado para el programa Digitalers, donde implementé una tienda online en React utilizando diversas herramientas modernas del ecosistema frontend.
 
-Currently, two official plugins are available:
+🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React + Vite
 
-## React Compiler
+React Router DOM
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Context API (autenticación y carrito global)
 
-Note: This will impact Vite dev & build performances.
+LocalStorage (persistencia de datos)
 
-## Expanding the ESLint configuration
+UUID (IDs únicos para productos)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CSS moderno (Glassmorphism + Responsive)
+
+Hooks:
+
+useState
+
+useEffect
+
+useContext
+
+useRef
+
+📌 Funcionalidades
+🔐 Autenticación
+
+Login simple con usuario guardado en LocalStorage.
+
+Mantenimiento de sesión aun si se refresca la página.
+
+Expiración automática después de cierto tiempo (30 minutos).
+
+🏠 Dashboard
+
+Muestra productos en una grilla 3x3.
+
+Cada producto incluye:
+
+Imagen
+
+Nombre
+
+Precio
+
+Botón para agregar al carrito
+
+🛒 Carrito de compras
+
+Persistente incluso al refrescar la página.
+
+Posibilidad de eliminar productos.
+
+Cálculo automático del total.
+
+Vista separada para ver solo los productos agregados.
+
+🎨 Diseño
+
+Interfaz con glassmorphism, estilos suaves y modernos.
+
+Totalmente responsive para móviles y tablets.
+
+🧠 Retos del proyecto
+
+Manejo de Context API correctamente
+
+Guardar la sesión en LocalStorage
+
+Control de expiración automática
+
+Manejo de rutas y navegación
+
+Implementación del grid responsive
+
+Problemas con imágenes en Vite (rutas relativas)
+
+🧩 Mejoras futuras
+
+Validaciones más completas en el login
+
+Formulario de compra
+
+Sistema de checkout
+
+Notificaciones de sesión próxima a expirar
+
+Login real conectado a backend
+
+
+💬 Autor
+
+Gala Daniela Romero Lazzarini
+Proyecto final del programa Digitalers.
