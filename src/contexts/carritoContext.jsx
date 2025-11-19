@@ -15,8 +15,7 @@ function CarritoProvider({children}){
     localStorage.setItem("carrito",JSON.stringify(carrito))
    },[carrito])
    
-    //  const [borrar,setBorrar] = useState()
-
+   
 
       function agregarProducto(producto){
      const nuevosProductos = ([...carrito,producto])
