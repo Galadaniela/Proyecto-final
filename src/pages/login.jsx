@@ -21,24 +21,14 @@ function Login(){
         
     }
     
-   const handleError=(e)=>{
-         
-   }
+  
     const handelSubmit=(e)=>{
         e.preventDefault()
         if(username === "" || password ===  "" )
             setError("⚠️ Por favor, completá todos los campos.");
-            
-        // else if(username === "")
-        //     setError("⚠️ por favor ,ingrese el nombre de usuario.");
-              
-        // else if(password === "")
-        //     setError("⚠️ Por favor, ingrese contraseña.");
-            
         else{
             setError("")
             login({username})
-            // setIsLoggedIn(true)
             navigate("/dashboard");
         }     
     }
